@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { Schema } from "../../amplify/data/resource";
+import { Schema } from "../../../amplify/data/resource"
 
 const Comments = ({
   addComment,

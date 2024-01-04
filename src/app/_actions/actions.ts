@@ -3,6 +3,7 @@
 import { redirect } from "next/navigation"
 import { cookieBasedClient } from "../utils/amplify-utils"
 import { revalidatePath } from "next/cache";
+import { Schema } from "../../../amplify/data/resource"
 
 
 export async function deleteComment(formData: FormData) {
